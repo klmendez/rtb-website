@@ -38,7 +38,7 @@ function Home() {
               <span className="text-green">BIOARQUITECTURA</span>
             </h1>
             <p className="hero-description">
-              Diseñamos e implementamos soluciones ecológicas
+              Diseñamos y construimos soluciones ecológicas
               para el tratamiento y reutilización del agua usada/residual
               a través de Bio-Jardines y Bioarquitectura.
             </p>
@@ -102,7 +102,7 @@ function Home() {
               </svg>
             </div>
             <h3>BIOARQUITECTURA</h3>
-            <p>Diseñamos espacios vivos que integran agua, vegetación y arquitectura en armonía.</p>
+            <p>Diseñamos y construimos espacios vivos que integran agua, vegetación y arquitectura en armonía.</p>
           </div>
         </div>
       </section>
@@ -160,9 +160,9 @@ function Home() {
           
           <div className="project-card">
             <div className="project-image">
-              <img src="./PANCA CALI BIFAMILIAR.png" alt="Panca Cali" />
+              <img src="./PANCE CALI BIFAMILIAR.png" alt="PANCE Cali" />
             </div>
-            <h4>PANCA CALI</h4>
+            <h4>PANCE CALI</h4>
             <p className="project-location">Cali, Valle del Cauca</p>
             <p className="project-desc">Bio-jardín residencial.</p>
             <Link to="/proyectos" className="link-arrow">Ver proyecto <span>→</span></Link>

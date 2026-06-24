@@ -8,19 +8,55 @@ function Reconocimientos() {
   const certificados = [
     {
       id: 1,
+      titulo: 'Premio al Mejor Proyecto de Innovacion',
+      entidad: 'Ingenia Biosystems / Red Alfa-TECSPAR',
+      año: '2012',
+      descripcion: 'Mencion especial en el Congreso Internacional Gestion Sostenible del Agua por el proyecto "Obras con Sobras, Hechos con Desechos".',
+      imagen: './Ingenia Biosystems.png',
+      categoria: 'Reconocimiento Internacional'
+    },
+    {
+      id: 2,
+      titulo: 'Carta de Aprobacion - Cabildo Indigena de Guamia',
+      entidad: 'Autoridad Ancestral del Territorio Wampia del Pueblo Misak',
+      año: '2012',
+      descripcion: 'Aprobacion del sistema PETAR mediante biofiltros para el Hospital Mama Dominga y el Colegio Agropecuario del Resguardo de Guamia.',
+      imagen: './autoridad misak.png',
+      categoria: 'Proyecto Social'
+    },
+    {
+      id: 3,
+      titulo: 'Premio CEMEX-TEC Edicion 2015',
+      entidad: 'CEMEX / Tecnologico de Monterrey',
+      año: '2015',
+      descripcion: 'Ganador Categoria Emprendedores Sociales con el proyecto "Obras con Sobras". Reconocimiento al impacto ambiental y social.',
+      imagen: './CEMEX.png',
+      categoria: 'Reconocimiento Internacional'
+    },
+    {
+      id: 4,
+      titulo: 'Trofeo Premio CEMEX-TEC',
+      entidad: 'CEMEX / Tecnologico de Monterrey',
+      año: '2015',
+      descripcion: 'Trofeo fisico del Premio CEMEX-TEC Edicion 2015, Categoria Emprendedores Sociales, proyecto "Obras con Sobras", Popayan - Colombia.',
+      imagen: './CEMEX 2.png',
+      categoria: 'Reconocimiento Internacional'
+    },
+    {
+      id: 5,
       titulo: 'Certificado de Registro de Signo Distintivo',
       entidad: 'Superintendencia de Industria y Comercio',
       año: '2021',
-      descripcion: 'Marca Mixta RTB BIO-JARDÍN registrada oficialmente. Certificado No. 698724 para filtros ecológicos para la depuración de aguas residuales.',
+      descripcion: 'Marca Mixta RTB BIO-JARDIN registrada oficialmente. Certificado No. 698724 para filtros ecologicos para la depuracion de aguas residuales.',
       imagen: './Certificado de Registro distitivo.png',
       categoria: 'Registro de Marca'
     },
     {
-      id: 2,
-      titulo: 'Certificado de Alianza Estratégica',
-      entidad: 'Montero Ingeniería S.A.S.',
+      id: 6,
+      titulo: 'Certificado de Alianza Estrategica',
+      entidad: 'Montero Ingenieria S.A.S.',
       año: '2026',
-      descripcion: 'Alianza estratégica para la implementación de ecotecnologías y desarrollo de Biojardines en el sector avícola del Valle del Cauca.',
+      descripcion: 'Alianza estrategica para la implementacion de ecotecnologias y desarrollo de Biojardines en el sector avicola del Valle del Cauca.',
       imagen: './certificado de montero.png',
       categoria: 'Alianza Empresarial'
     }

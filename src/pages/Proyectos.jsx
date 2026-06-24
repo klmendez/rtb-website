@@ -45,10 +45,10 @@ function Proyectos() {
     },
     {
       id: 5,
-      nombre: 'PANCA CALI',
+      nombre: 'PANCE CALI',
       ubicacion: 'Cali, Valle del Cauca',
       descripcion: 'Bio-jardín residencial integrado al paisajismo de la vivienda con heliconias y papiros.',
-      imagenes: ['./PANCA CALI BIFAMILIAR.png'],
+      imagenes: ['./PANCE CALI BIFAMILIAR.png'],
       tipo: 'Residencial'
     },
     {
@@ -169,7 +169,7 @@ function Proyectos() {
       <section className="proyectos-cta">
         <div className="container">
           <h2>¿Tienes un proyecto en mente?</h2>
-          <p>Diseñamos soluciones a medida para cualquier escala y necesidad</p>
+          <p>Diseñamos y construimos soluciones a medida para cualquier escala y necesidad</p>
           <Link to="/contacto" className="btn btn-primary">
             Solicitar cotización <span>›</span>
           </Link>
