@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { Link, useLocation } from 'react-router-dom'
+import { Link, NavLink, useLocation } from 'react-router-dom'
 import './Header.css'
 
 function Header() {
@@ -39,12 +39,12 @@ function Header() {
           <ul className="nav-list">
             {navLinks.map((link) => (
               <li key={link.path}>
-                <Link 
-                  to={link.path} 
-                  className={`nav-link ${location.pathname === link.path ? 'active' : ''}`}
+                <NavLink
+                  to={link.path}
+                  className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}
                 >
                   {link.label}
-                </Link>
+                </NavLink>
               </li>
             ))}
           </ul>

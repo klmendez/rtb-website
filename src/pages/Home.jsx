@@ -130,27 +130,7 @@ function Home() {
         <div className="projects-grid">
           <div className="project-card">
             <div className="project-image">
-              <img src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=400&h=250&fit=crop" alt="Proyecto Origen" />
-            </div>
-            <h4>PROYECTO ORIGEN</h4>
-            <p className="project-location">La Pintada, Antioquia</p>
-            <p className="project-desc">Sistema de reutilización de agua usada/residual.</p>
-            <Link to="/proyectos" className="link-arrow">Ver proyecto <span>→</span></Link>
-          </div>
-          
-          <div className="project-card">
-            <div className="project-image">
-              <img src="https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=400&h=250&fit=crop" alt="Villa de Leyva" />
-            </div>
-            <h4>VILLA DE LEYVA</h4>
-            <p className="project-location">Villa de Leyva, Boyacá</p>
-            <p className="project-desc">Bio-jardín multifamiliar.</p>
-            <Link to="/proyectos" className="link-arrow">Ver proyecto <span>→</span></Link>
-          </div>
-          
-          <div className="project-card">
-            <div className="project-image">
-              <img src="https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?w=400&h=250&fit=crop" alt="Universidad del Cauca" />
+              <img src="/UNIVERSIDAD DEL CAUCA, TOMA AEREA.png" alt="Universidad del Cauca" />
             </div>
             <h4>UNIVERSIDAD DEL CAUCA</h4>
             <p className="project-location">Popayán, Cauca</p>
@@ -160,9 +140,29 @@ function Home() {
           
           <div className="project-card">
             <div className="project-image">
-              <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=250&fit=crop" alt="Unifamiliar Alcaraván" />
+              <img src="/VILLA DE LEYVA.png" alt="Villa de Leyva" />
             </div>
-            <h4>UNIFAMILIAR ALCARAVÁN</h4>
+            <h4>VILLA DE LEYVA</h4>
+            <p className="project-location">Villa de Leyva, Boyacá</p>
+            <p className="project-desc">Bio-jardín multifamiliar.</p>
+            <Link to="/proyectos" className="link-arrow">Ver proyecto <span>→</span></Link>
+          </div>
+          
+          <div className="project-card">
+            <div className="project-image">
+              <img src="/CASA BIFAMILIAR POPAYAN.png" alt="Casa Bifamiliar Popayán" />
+            </div>
+            <h4>CASA BIFAMILIAR POPAYÁN</h4>
+            <p className="project-location">Popayán, Cauca</p>
+            <p className="project-desc">Sistema residencial con plantas ornamentales.</p>
+            <Link to="/proyectos" className="link-arrow">Ver proyecto <span>→</span></Link>
+          </div>
+          
+          <div className="project-card">
+            <div className="project-image">
+              <img src="/PANCA CALI BIFAMILIAR.png" alt="Panca Cali" />
+            </div>
+            <h4>PANCA CALI</h4>
             <p className="project-location">Cali, Valle del Cauca</p>
             <p className="project-desc">Bio-jardín residencial.</p>
             <Link to="/proyectos" className="link-arrow">Ver proyecto <span>→</span></Link>
