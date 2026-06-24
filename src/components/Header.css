@@ -1,0 +1,148 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  z-index: 1000;
+  transition: all 0.3s ease;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+
+.header.scrolled {
+  box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+  background: rgba(255, 255, 255, 0.98);
+}
+
+.header-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 12px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  transition: transform 0.3s ease;
+}
+
+.logo:hover {
+  transform: scale(1.02);
+}
+
+.logo img {
+  height: 65px;
+  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.1));
+}
+
+.nav-list {
+  display: flex;
+  gap: 35px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-link {
+  font-size: 13px;
+  font-weight: 600;
+  color: #6c757d;
+  transition: all 0.3s ease;
+  position: relative;
+  padding: 8px 0;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+}
+
+.nav-link::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 3px;
+  background: linear-gradient(135deg, #4a9d6e 0%, #2d7a4e 50%, #1a5a3a 100%);
+  border-radius: 3px;
+  transition: all 0.3s ease;
+  transform: translateX(-50%);
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: #2d7a4e;
+}
+
+.nav-link:hover::before,
+.nav-link.active::before {
+  width: 100%;
+}
+
+
+.mobile-menu-btn {
+  display: none;
+  flex-direction: column;
+  gap: 6px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  transition: transform 0.3s ease;
+}
+
+.mobile-menu-btn:hover {
+  transform: scale(1.1);
+}
+
+.mobile-menu-btn span {
+  width: 28px;
+  height: 3px;
+  background: #2d7a4e;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+}
+
+.mobile-menu-btn.active span:nth-child(1) {
+  transform: rotate(45deg) translate(6px, 6px);
+}
+
+.mobile-menu-btn.active span:nth-child(2) {
+  opacity: 0;
+}
+
+.mobile-menu-btn.active span:nth-child(3) {
+  transform: rotate(-45deg) translate(6px, -6px);
+}
+
+@media (max-width: 992px) {
+  .nav {
+    position: fixed;
+    top: 90px;
+    left: 0;
+    right: 0;
+    background: rgba(255,255,255,0.98);
+    backdrop-filter: blur(20px);
+    padding: 20px;
+    transform: translateY(-150%);
+    transition: transform 0.4s ease;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+  }
+
+  .nav.active {
+    transform: translateY(0);
+  }
+
+  .nav-list {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+
+  .mobile-menu-btn {
+    display: flex;
+  }
+}

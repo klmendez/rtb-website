@@ -1,0 +1,94 @@
+/* Global Styles for RTB Bio-Jardines */
+
+/* Buttons */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 28px;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 14px;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  cursor: pointer;
+  border: none;
+  position: relative;
+  overflow: hidden;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+}
+
+.btn span {
+  font-size: 18px;
+  transition: transform 0.3s ease;
+}
+
+.btn:hover span {
+  transform: translateX(5px);
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #4a9d6e 0%, #2d7a4e 50%, #1a5a3a 100%);
+  color: #ffffff;
+  box-shadow: 0 10px 40px rgba(45, 122, 78, 0.3);
+}
+
+.btn-primary:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 15px 50px rgba(45, 122, 78, 0.4);
+}
+
+.btn-secondary {
+  background: linear-gradient(135deg, #d4b84a 0%, #c9a227 100%);
+  color: #ffffff;
+  box-shadow: 0 10px 40px rgba(201, 162, 39, 0.3);
+}
+
+.btn-secondary:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 15px 50px rgba(201, 162, 39, 0.4);
+}
+
+.btn-outline {
+  background: transparent;
+  border: 2px solid #2d7a4e;
+  color: #2d7a4e;
+}
+
+.btn-outline:hover {
+  background: #2d7a4e;
+  color: #ffffff;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 40px rgba(45, 122, 78, 0.3);
+}
+
+.btn-outline-light {
+  background: rgba(255,255,255,0.1);
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  backdrop-filter: blur(10px);
+}
+
+.btn-outline-light:hover {
+  background: #ffffff;
+  color: #1a5a3a;
+  transform: translateY(-3px);
+}
+
+.link-arrow {
+  color: #2d7a4e;
+  font-weight: 600;
+  font-size: 14px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.3s ease;
+  position: relative;
+  text-decoration: none;
+}
+
+.link-arrow:hover {
+  gap: 12px;
+  color: #1a5a3a;
+}

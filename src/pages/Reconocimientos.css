@@ -1,0 +1,361 @@
+.reconocimientos-page {
+  padding-top: 90px;
+}
+
+.page-hero {
+  background: linear-gradient(135deg, #1a5a3a 0%, #2d7a4e 100%);
+  padding: 100px 40px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.page-hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+.page-hero h1 {
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: #ffffff;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+}
+
+.page-hero p {
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 0.9);
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.8;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.reconocimientos-intro {
+  padding: 80px 40px;
+  background: #ffffff;
+}
+
+.intro-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.intro-icon {
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(135deg, #d4b84a 0%, #c9a227 100%);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  box-shadow: 0 10px 40px rgba(201, 162, 39, 0.3);
+}
+
+.intro-icon svg {
+  width: 40px;
+  height: 40px;
+  color: #ffffff;
+}
+
+.intro-text h2 {
+  font-size: 2rem;
+  color: #1a5a3a;
+  margin-bottom: 15px;
+}
+
+.intro-text p {
+  font-size: 1.1rem;
+  color: #6c757d;
+  line-height: 1.8;
+  margin: 0;
+}
+
+/* Certificados Section */
+.certificados-section {
+  padding: 80px 40px;
+  background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+}
+
+.certificados-section h2 {
+  font-size: 2rem;
+  color: #1a5a3a;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.certificados-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.certificado-card {
+  background: #ffffff;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+  transition: all 0.4s ease;
+}
+
+.certificado-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+}
+
+.certificado-imagen {
+  position: relative;
+  height: 300px;
+  overflow: hidden;
+  cursor: pointer;
+  background: #f8f9fa;
+}
+
+.certificado-imagen img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 20px;
+  transition: transform 0.4s ease;
+}
+
+.certificado-card:hover .certificado-imagen img {
+  transform: scale(1.05);
+}
+
+.certificado-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(26, 90, 58, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.certificado-card:hover .certificado-overlay {
+  opacity: 1;
+}
+
+.certificado-overlay span {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 12px 24px;
+  border: 2px solid #ffffff;
+  border-radius: 30px;
+}
+
+.certificado-content {
+  padding: 25px;
+}
+
+.certificado-categoria {
+  display: inline-block;
+  background: linear-gradient(135deg, #c9a227 0%, #d4b84a 100%);
+  color: #ffffff;
+  padding: 5px 12px;
+  border-radius: 15px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 12px;
+}
+
+.certificado-content h3 {
+  font-size: 1.1rem;
+  color: #1a5a3a;
+  margin-bottom: 8px;
+}
+
+.certificado-entidad {
+  font-size: 0.9rem;
+  color: #2d7a4e;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.certificado-desc {
+  font-size: 0.9rem;
+  color: #6c757d;
+  line-height: 1.7;
+  margin-bottom: 15px;
+}
+
+.certificado-año {
+  font-size: 0.85rem;
+  color: #adb5bd;
+  font-weight: 600;
+}
+
+/* Modal */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10000;
+  padding: 40px;
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.modal-content {
+  position: relative;
+  max-width: 90%;
+  max-height: 90%;
+}
+
+.modal-content img {
+  max-width: 100%;
+  max-height: 85vh;
+  border-radius: 10px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+}
+
+.modal-close {
+  position: absolute;
+  top: -50px;
+  right: 0;
+  background: none;
+  border: none;
+  color: #ffffff;
+  font-size: 40px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.modal-close:hover {
+  transform: scale(1.2);
+}
+
+.reconocimientos-destacado {
+  padding: 100px 40px;
+  background: #ffffff;
+}
+
+.destacado-content {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 60px;
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.destacado-imagen img {
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+}
+
+.destacado-texto h2 {
+  font-size: 2rem;
+  color: #1a5a3a;
+  margin-bottom: 20px;
+}
+
+.destacado-texto p {
+  font-size: 1rem;
+  color: #6c757d;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.destacado-texto blockquote {
+  font-size: 1.1rem;
+  font-style: italic;
+  color: #2d3436;
+  border-left: 4px solid #c9a227;
+  padding-left: 20px;
+  margin: 30px 0 15px;
+  line-height: 1.8;
+}
+
+.destacado-texto .autor {
+  font-size: 0.9rem;
+  color: #1a5a3a;
+  font-weight: 600;
+  margin: 0;
+}
+
+.reconocimientos-cta {
+  padding: 100px 40px;
+  background: linear-gradient(135deg, #1a5a3a 0%, #2d7a4e 100%);
+  text-align: center;
+}
+
+.reconocimientos-cta h2 {
+  font-size: 2.5rem;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.reconocimientos-cta p {
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 40px;
+}
+
+@media (max-width: 992px) {
+  .certificados-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .destacado-content {
+    grid-template-columns: 1fr;
+  }
+
+  .destacado-imagen {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .page-hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .intro-content {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .reconocimientos-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .reconocimientos-cta h2 {
+    font-size: 2rem;
+  }
+}
