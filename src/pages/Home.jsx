@@ -52,7 +52,7 @@ function Home() {
             </div>
           </div>
           <div className="hero-image">
-            <img src="/hero_rtb_imagen.png" alt="Carlos Alberto Sarzosa - RTB Bio-Jardines" />
+            <img src="./hero_rtb_imagen.png" alt="Carlos Alberto Sarzosa - RTB Bio-Jardines" />
             <div className="spiral-watermark"></div>
           </div>
         </div>
@@ -130,7 +130,7 @@ function Home() {
         <div className="projects-grid">
           <div className="project-card">
             <div className="project-image">
-              <img src="/UNIVERSIDAD DEL CAUCA, TOMA AEREA.png" alt="Universidad del Cauca" />
+              <img src="./UNIVERSIDAD DEL CAUCA, TOMA AEREA.png" alt="Universidad del Cauca" />
             </div>
             <h4>UNIVERSIDAD DEL CAUCA</h4>
             <p className="project-location">Popayán, Cauca</p>
@@ -140,7 +140,7 @@ function Home() {
           
           <div className="project-card">
             <div className="project-image">
-              <img src="/VILLA DE LEYVA.png" alt="Villa de Leyva" />
+              <img src="./VILLA DE LEYVA.png" alt="Villa de Leyva" />
             </div>
             <h4>VILLA DE LEYVA</h4>
             <p className="project-location">Villa de Leyva, Boyacá</p>
@@ -150,7 +150,7 @@ function Home() {
           
           <div className="project-card">
             <div className="project-image">
-              <img src="/CASA BIFAMILIAR POPAYAN.png" alt="Casa Bifamiliar Popayán" />
+              <img src="./CASA BIFAMILIAR POPAYAN.png" alt="Casa Bifamiliar Popayán" />
             </div>
             <h4>CASA BIFAMILIAR POPAYÁN</h4>
             <p className="project-location">Popayán, Cauca</p>
@@ -160,7 +160,7 @@ function Home() {
           
           <div className="project-card">
             <div className="project-image">
-              <img src="/PANCA CALI BIFAMILIAR.png" alt="Panca Cali" />
+              <img src="./PANCA CALI BIFAMILIAR.png" alt="Panca Cali" />
             </div>
             <h4>PANCA CALI</h4>
             <p className="project-location">Cali, Valle del Cauca</p>

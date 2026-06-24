@@ -32,7 +32,7 @@ function Header() {
     <header className={`header ${isScrolled ? 'scrolled' : ''}`}>
       <div className="header-container">
         <Link to="/" className="logo">
-          <img src="/logo_rtb_crop.png" alt="RTB Bio-Jardines" />
+          <img src="./logo_rtb_crop.png" alt="RTB Bio-Jardines" />
         </Link>
         
         <nav className={`nav ${isMobileMenuOpen ? 'active' : ''}`}>

@@ -13,7 +13,7 @@ function Impacto() {
 
       <section className="impacto-problema">
         <div className="impacto-imagen">
-          <img src="/rtb_82_por_ciento.png" alt="El Problema - 82% de enfermedades por mal manejo de excretas" />
+          <img src="./rtb_82_por_ciento.png" alt="El Problema - 82% de enfermedades por mal manejo de excretas" />
         </div>
       </section>
 

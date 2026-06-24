@@ -13,9 +13,9 @@ function Proyectos() {
       ubicacion: 'Popayán, Cauca',
       descripcion: 'Sistema institucional de tratamiento para 3,000 usuarios diarios. Bio-jardín con plantas de papiro que filtran y purifican las aguas residuales del campus universitario.',
       imagenes: [
-        '/UNIVERSIDAD DEL CAUCA, TOMA AEREA.png',
-        '/UNIVERSIDAD DEL CAUCA.png',
-        '/UNIVERSIDAD DEL CAUCA (2).png'
+        './UNIVERSIDAD DEL CAUCA, TOMA AEREA.png',
+        './UNIVERSIDAD DEL CAUCA.png',
+        './UNIVERSIDAD DEL CAUCA (2).png'
       ],
       tipo: 'Institucional'
     },
@@ -24,7 +24,7 @@ function Proyectos() {
       nombre: 'VILLA DE LEYVA',
       ubicacion: 'Villa de Leyva, Boyacá',
       descripcion: 'Bio-jardín multifamiliar que trata aguas grises para riego de jardines ornamentales.',
-      imagenes: ['/VILLA DE LEYVA.png'],
+      imagenes: ['./VILLA DE LEYVA.png'],
       tipo: 'Residencial'
     },
     {
@@ -32,7 +32,7 @@ function Proyectos() {
       nombre: 'CASA BIFAMILIAR POPAYÁN',
       ubicacion: 'Popayán, Cauca',
       descripcion: 'Sistema de tratamiento residencial con plantas ornamentales integradas al paisajismo.',
-      imagenes: ['/CASA BIFAMILIAR POPAYAN.png'],
+      imagenes: ['./CASA BIFAMILIAR POPAYAN.png'],
       tipo: 'Residencial'
     },
     {
@@ -40,7 +40,7 @@ function Proyectos() {
       nombre: 'CASA BIFAMILIAR',
       ubicacion: 'Valle del Cauca',
       descripcion: 'Bio-jardín bifamiliar con sistema de filtración natural mediante plantas acuáticas.',
-      imagenes: ['/CASA BIFAMILIAR.png', '/biojardin_1.png'],
+      imagenes: ['./CASA BIFAMILIAR.png', './biojardin_1.png'],
       tipo: 'Residencial'
     },
     {
@@ -48,7 +48,7 @@ function Proyectos() {
       nombre: 'PANCA CALI',
       ubicacion: 'Cali, Valle del Cauca',
       descripcion: 'Bio-jardín residencial integrado al paisajismo de la vivienda con heliconias y papiros.',
-      imagenes: ['/PANCA CALI BIFAMILIAR.png'],
+      imagenes: ['./PANCA CALI BIFAMILIAR.png'],
       tipo: 'Residencial'
     },
     {
@@ -56,7 +56,7 @@ function Proyectos() {
       nombre: 'SOPÓ',
       ubicacion: 'Sopó, Cundinamarca',
       descripcion: 'Sistema de tratamiento ecológico para vivienda rural en clima frío.',
-      imagenes: ['/sopo cundinamarca.png'],
+      imagenes: ['./sopo cundinamarca.png'],
       tipo: 'Rural'
     }
   ]

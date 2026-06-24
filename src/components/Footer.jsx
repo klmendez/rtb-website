@@ -7,7 +7,7 @@ function Footer() {
       <div className="footer-container">
         <div className="footer-logo">
           <Link to="/">
-            <img src="/logo_rtb_crop.png" alt="RTB Bio-Jardines" />
+            <img src="./logo_rtb_crop.png" alt="RTB Bio-Jardines" />
           </Link>
         </div>
         

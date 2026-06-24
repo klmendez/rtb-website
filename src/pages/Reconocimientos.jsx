@@ -12,7 +12,7 @@ function Reconocimientos() {
       entidad: 'Superintendencia de Industria y Comercio',
       año: '2021',
       descripcion: 'Marca Mixta RTB BIO-JARDÍN registrada oficialmente. Certificado No. 698724 para filtros ecológicos para la depuración de aguas residuales.',
-      imagen: '/Certificado de Registro distitivo.png',
+      imagen: './Certificado de Registro distitivo.png',
       categoria: 'Registro de Marca'
     },
     {
@@ -21,7 +21,7 @@ function Reconocimientos() {
       entidad: 'Montero Ingeniería S.A.S.',
       año: '2026',
       descripcion: 'Alianza estratégica para la implementación de ecotecnologías y desarrollo de Biojardines en el sector avícola del Valle del Cauca.',
-      imagen: '/certificado de montero.png',
+      imagen: './certificado de montero.png',
       categoria: 'Alianza Empresarial'
     }
   ]
@@ -96,7 +96,7 @@ function Reconocimientos() {
         <div className="container">
           <div className="destacado-content">
             <div className="destacado-imagen">
-              <img src="/hero_rtb_imagen.png" alt="Carlos Alberto Sarzosa" />
+              <img src="./hero_rtb_imagen.png" alt="Carlos Alberto Sarzosa" />
             </div>
             <div className="destacado-texto">
               <h2>Carlos Alberto Sarzosa</h2>
